@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body {
+    background-color: crimson;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;;
+  }
+  #title {
+    text-align: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    text-shadow: 4px 4px 2px rgb(113, 2, 2);
+  }
+  #description {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-size: 1.25rem;
+    text-shadow: 2px 2px 2px rgb(113, 2, 2);
+  }
+  #survey-form {
+    background-color: rgba(139, 0, 0);
+    width: 80%;
+    margin: 0 auto;
+    border: 7px solid rgb(53, 0, 0);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    padding: 40px;
+    max-width: 500px;
+    border-radius: 10px;
+  }
+  div {
+    font: 20px 'Poppins', sans-serif;
+    color: #f3f3f3;
+    padding: 4px;
+  }
+
+  #name {
+    display: block;
+    font: 17px 'Poppins', sans-serif;
+  }
+  #email {
+    display: block;
+    margin: 3px 0 8px 0;
+    font: 17px 'Poppins', sans-serif;
+  }
+  #number {
+    display: block;
+    margin: 3px 0 8px 0;
+    font: 17px 'Poppins', sans-serif;
+  }
+
+  #dropdown {
+    display: block;
+    margin: 3px 0 8px 0;
+    font: 17px 'Poppins', sans-serif;
+    color: rgb(118, 114, 114);
+    padding: 6px 12px;
+    width: 95%;
+    border-radius: 3px;
+    border: none;
+  }
+
+  input {
+    padding: 6px 12px;
+    width: 90%;
+    border-radius: 3px;
+    border: none;
+    margin-top: 3px;
+  }
+  .recommend {
+    display: inline-block;
+    width: auto
+  }
+  input.recommend {
+    width: auto;
+  }
+  .input-checkbox {
+    display: inline-block;
+    width: auto;
+  }
+
+  #comments {
+    width: 95%;
+    font: 17px 'Poppins', sans-serif;
+    columns: 400;
+    padding: 10px;
+    min-height: 100px;
+    resize: vertical;
+    color: rgb(118, 114, 114);
+    border-radius: 3px;
+    border: none;
+  }
+  .form-group {
+    margin: 0 0 20px;
+  }
+  #submit {
+    font: 1.15rem 'Poppins', sans-serif;
+    width: 100%;
+    padding: 12px;
+    background-color: #ff4500;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+  }
+
+  
+  
